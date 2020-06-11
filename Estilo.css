@@ -1,0 +1,40 @@
+.espaço {
+    margin-top: 15vh;
+}
+
+#login {
+    height: 100vh;
+}
+
+#cadastro {
+    height: 100vh;
+}
+
+input {
+    color: white;
+    font-family: 'Reem Kufi', sans-serif
+}
+
+input.in {
+    color: black;
+}
+
+.rem {
+    font-family: Reem Kufi, sans-serif;
+}
+
+.btn {
+    width: 30vh;
+}
+
+.corpo {
+    height: 80vh;
+}
+
+.nav {
+    height: 20vh;
+}
+
+h2 {
+    margin: 0;
+}

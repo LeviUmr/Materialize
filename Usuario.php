@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link href="Usuario.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
 </head>
 <body>
 
