@@ -19,7 +19,7 @@
 				<ul id="nav-mobile" class="right">
 					<li><a href="Inicial.php" class="red-text text-darken-3" style="font-family: Revalia">Produtos</a></li>
 					<li><a href="Carrinho.php" class="red-text text-darken-3 valign-wrapper" style="font-family: Revalia">Carrinho <i class="material-icons">add_shopping_cart</i></a></li>
-					<li><a href="Usuario.php" class="red-text text-darken-3" style="font-family: Revalia">Registrar-se/entrar</a></li>
+					<li><a href="Usuario.php" class="red-text text-darken-3" style="font-family: Revalia">Registrar-se/Entrar</a></li>
 				</ul>
 			</div>
 			<div class="nav-header center">
@@ -31,13 +31,14 @@
 				</ul>
 			</div>
 		</nav>
-
+		
 		<div class="row">
 			<div class="col s3">
 				<div class="card Large hoverable">
 					<div class="card-image">
 						<img src="https://cdn.pixabay.com/photo/2017/03/19/18/51/tuning-2157354_960_720.jpg" alt="" />
 						<span class="card-title"></span>
+					
 
 						<div class="card-content">
 							<div class="row">
@@ -53,7 +54,7 @@
 							</div>
 							<div class="card-action">
 								<p class="right-align">
-									<a href="#" style="font-family: reem kufi;" class="valign-wrapper red-text ">Mostrar Mais <i class="material-icons"> description</i></a>
+									<a href="#" style="font-family: reem kufi;" class="valign-wrapper white-text btn red ">Mostrar Mais <i class="material-icons"> description</i></a>
 								</p>
 
 							</div>
@@ -84,7 +85,7 @@
 								</div>
 								<div class="card-action">
 									<p class="right-align">
-										<a href="#" style="font-family: reem kufi;" class="valign-wrapper red-text ">Mostrar Mais <i class="material-icons"> description</i></a>
+										<a href="#" style="font-family: reem kufi;" class="valign-wrapper white-text btn red ">Mostrar Mais <i class="material-icons"> description</i></a>
 									</p>
 
 								</div>
@@ -115,7 +116,7 @@
 									</div>
 									<div class="card-action">
 										<p class="right-align">
-											<a href="#" style="font-family: reem kufi;" class="valign-wrapper red-text ">Mostrar Mais <i class="material-icons"> description</i></a>
+											<a href="#" style="font-family: reem kufi;" class="valign-wrapper white-text btn red ">Mostrar Mais <i class="material-icons"> description</i></a>
 										</p>
 
 									</div>
@@ -146,7 +147,7 @@
 										</div>
 										<div class="card-action">
 											<p class="right-align">
-												<a href="#" style="font-family: reem kufi;" class="valign-wrapper red-text ">Mostrar Mais <i class="material-icons"> description</i></a>
+												<a href="#" style="font-family: reem kufi;" class="valign-wrapper white-text btn red ">Mostrar Mais <i class="material-icons"> description</i></a>
 											</p>
 
 										</div>
@@ -157,5 +158,6 @@
 						</div>
 
 </body>
+<script src="base.js"></script>
 
 </html>

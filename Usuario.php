@@ -8,15 +8,17 @@
 	<link href="https://fonts.googleapis.com/css2?family=Revalia&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link href="estilo.css" rel="stylesheet">
+   
+    <link href="Estilo.css" rel="stylesheet">
 </head>
-<body>
-
+<body style="font-family:'reem kufi', sans serif;">
     <div class="row">
         
-
+        
         <div class="col s5 red lighten-1 center " id="login">
+            
+                <a href="Inicial.php" class="valign-wrapper white-text"style="font-size:2rem"><p class=" large material-icons white-text" >arrow_back</p>  Voltar</a>
+            </p>
             <h1 class="white-text espaço" style="font-family: 'Reem Kufi', sans-serif">Login</h1>
             <h1 class="white-text" style="font-family: 'Reem Kufi', sans-serif; font-size:1.2rem;">Dados Pessoais</h1>
             <div class="row">
@@ -27,7 +29,7 @@
                 <input type="text" placeholder="  Insira sua senha">
                 <a href="" class="white-text rem ">Esqueceu sua senha?</a>
                 <div class="row">
-                    <a class="waves-effect waves-light btn-large white black-text rem btn">Entrar</a>
+                <a href="#" onclick="print()" class="waves-effect waves-light btn-large red-text text-ligten-1 white rem btn">Registrar</a>
                     </div>
                 </div>
             </div>
@@ -47,7 +49,9 @@
         <input class="in" type="text" placeholder="  CPF ou CNPJ">
         <input class="in" type="text" placeholder="  CEP"></div>
         <div class="row">
-        <a class="waves-effect waves-light btn-large red ligten-1 white-text rem btn">Cadastrar</a>
+        <a href="#" onclick="print()" class="waves-effect waves-light btn-large red ligten-1 white-text rem btn">Cadastrar</a>
+       
+        
         </div>
         </div>
         
@@ -59,4 +63,6 @@
     </div>
 
 </body>
+<script src="base.js">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
 </html>

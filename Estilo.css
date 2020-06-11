@@ -1,40 +1,56 @@
-.espaço {
-    margin-top: 15vh;
-}
+            .espaço {
+                margin-top: 15vh;
+            }
+            
+            #login {
+                height: 100vh;
+            }
+            
+            #cadastro {
+                height: 100vh;
+            }
+            
+            input {
+                color: white;
+                font-family: 'Reem Kufi', sans-serif;
+            }
+            
+            input.in {
+                color: black;
+            }
+            
+            .btn {
+                width: 30vh;
+            }
+            
+            .corpo {
+                height: 80vh;
+            }
+            
+            .nav {
+                height: 20vh;
+            }
+            
+            th {
+                font-size: 1.5rem;
+                font-family: 'reem kufi',sans-serif;
+                
 
-#login {
-    height: 100vh;
-}
-
-#cadastro {
-    height: 100vh;
-}
-
-input {
-    color: white;
-    font-family: 'Reem Kufi', sans-serif
-}
-
-input.in {
-    color: black;
-}
-
-.rem {
-    font-family: Reem Kufi, sans-serif;
-}
-
-.btn {
-    width: 30vh;
-}
-
-.corpo {
-    height: 80vh;
-}
-
-.nav {
-    height: 20vh;
-}
-
-h2 {
-    margin: 0;
-}
+            }
+            
+            h2 {
+                font-size: 4.5rem;
+                margin: 0em;
+                padding-top: 2rem;
+            }
+            
+            td {
+                font-size: 1.3rem;
+                color: rgb(0, 0, 0);
+                font-family: 'reem kufi';  
+            }
+            td a{
+                text-decoration: none;
+                color: rgb(223, 51, 20);
+            }
+            
