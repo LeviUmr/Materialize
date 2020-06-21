@@ -17,7 +17,8 @@
 		<nav class="nav-extended amber">
 			<div class="nav-wrapper">
 				<ul id="nav-mobile" class="right">
-					<li><a href="Inicial.php" class="red-text text-darken-3" style="font-family: Revalia">Produtos</a></li>
+					<li><a href="CadastroCard.php" class="red-text text-darken-3" style="font-family: Revalia">Novo Produto</a></li>
+					<li><a href="Inicial.php" class="red-text text-darken-3" style="font-family: Revalia;text-decoration:underline;">Produtos</a></li>
 					<li><a href="Carrinho.php" class="red-text text-darken-3 valign-wrapper" style="font-family: Revalia">Carrinho <i class="material-icons">add_shopping_cart</i></a></li>
 					<li><a href="Usuario.php" class="red-text text-darken-3" style="font-family: Revalia">Registrar-se/Entrar</a></li>
 				</ul>
