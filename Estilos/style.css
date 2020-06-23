@@ -1,0 +1,100 @@
+body {
+    overflow: hidden;
+}
+
+.espaço {
+    margin-top: 10vh;
+}
+
+#login {
+    height: 100vh;
+}
+
+#cadastro {
+    height: 100vh;
+}
+
+input {
+    color      : white;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+input.in {
+    color: black;
+}
+
+.btn {
+    width: 30vh;
+}
+
+.corpo {
+    height: 80vh;
+}
+
+.nav {
+    height: 20vh;
+}
+
+th {
+    font-size  : 1.5rem;
+    font-family: 'reem kufi', sans-serif;
+}
+
+
+
+
+h2 {
+    font-size  : 4.5rem;
+    margin     : 0em;
+    padding-top: 2rem;
+}
+
+td {
+    font-size  : 1.3rem;
+    color      : rgb(0, 0, 0) !important;
+    font-family: 'reem kufi';
+}
+
+.desc {
+    text-decoration: none;
+    color          : rgb(245, 134, 7);
+}
+
+#finalizar {
+    position: absolute;
+    bottom  : 10vh;
+    right   : 20vw;
+
+}
+
+.laranja-text {
+    color: #f19c41;
+}
+
+.laranja {
+    background-color: #f19c41 !important;
+}
+
+.cinza-text {
+    color: #63636a;
+}
+
+.cinza {
+    background-color: #63636a;
+}
+
+label #desc {
+    margin-bottom: 2rem
+}
+
+ul li .active {
+    border-bottom: solid 2px #63636a;
+}
+
+.cadastro {}
+
+.carrinho {}
+
+.usuario {}
+
+.inicial {}

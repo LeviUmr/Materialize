@@ -1,42 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Inicial</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Revalia&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-	<link rel="stylesheet" href="Estilos/Estilo.css">
-	<link rel="shortcut icon" href="favicon.ico" />
-	<link rel="shortcut icon" href="favicon.ico" />
-</head>
-
-<body class=" indigo lighten-5">
-	<nav>
-		<nav class="nav-extended laranja">
-			<div class="nav-wrapper" >
-				<ul id="nav-mobile" class="right">
-					
-					<li><a href="CadastroCard.php" style="font-size:1rem;font-family :revalia" class="cinza-text"  >Novo Produto</a></li>
-					<li><a href="Inicial.php" style="font-size:1rem;font-family :revalia" class="cinza-text"  style="text-decoration:underline;">Produtos</a></li>
-					<li><a href="Carrinho.php" style="font-size:1rem;font-family :revalia" class="cinza-text  valign-wrapper" >Carrinho <i class="material-icons">add_shopping_cart</i></a></li>
-					<li><a href="Usuario.php" style="font-size:1rem;font-family :revalia" class="cinza-text"  >Registrar-se/Entrar</a></li>
-					
-				</ul>
-			</div>
-			<div class="nav-header center">
-				<h1 class=" cinza-text" style="font-family: Revalia">MotorShaft</h1>
-			</div>
-			<div class="nav-content  Cst ">
-				<ul class="tabs tabs-transparent">
-					<li class="tab"><a href=""><i class="material-icons cinza-text ">sort</i></a></li>
-				</ul>
-			</div>
-		</nav>
+<?php include "cabecalho.php" ?>
+<body class="pg indigo lighten-5 inicial">
+<?php include "nav.php"?>
 		
 		<div class="row">
 			<div class="col s3">
@@ -164,6 +128,7 @@
 						</div>
 
 </body>
-<script src="base.js"></script>
+<script src="javascript/base.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"/>
 
 </html>

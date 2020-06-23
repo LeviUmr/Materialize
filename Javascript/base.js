@@ -1,12 +1,4 @@
-/*cadastrar = document.getElementById("btncadastro")
-entrar = document.getElementById("btnentrar")
 
-console.log(cadastrar)
-console.log(entrar)
+function printar(){M.toast({html: 'Isso ainda não funciona'})}
 
-cadastrar.addEventListener("dbclick", print());
-entrar.addEventListener("dbclick", print());
-*/
-function print(){M.toast({html: 'Você não pode prosseguir'})}
-Materialize.updateTextFields();
 

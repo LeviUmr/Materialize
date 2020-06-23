@@ -1,20 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include "cabecalho.php" ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Revalia&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="Estilos/Estilo.css">
-    <link href="Estilo.css" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico" />
-</head>
-
-<body style="font-family:'reem kufi', sans serif;">
+<body class="usuario pg" style="font-family:'reem kufi', sans serif;">
     <div class="row">
 
 
@@ -31,7 +17,7 @@
 
 
                 <div class="col s6  offset-s3">
-                    
+
                     <input id="email" type="text" placeholder="  Insira seu email">
 
                     <br><br>
@@ -40,7 +26,7 @@
                     <input type="text" placeholder="  Insira sua senha"><br><br>
                     <a href="" class="white-text rem ">Esqueceu sua senha?</a><br><br>
                     <div class="row">
-                        <a href="#" onclick="print()" class="waves-effect waves-light btn-large white laranja-text rem btn">Entrar</a>
+                        <a href="#" onclick="printar()" class="waves-effect waves-light btn-large white laranja-text rem btn">Entrar</a>
                     </div>
                 </div>
             </div>
@@ -62,7 +48,7 @@
                 <div class="row">
                     <div class="col s12">
                         <br>
-                        <a href="#" onclick="print()" class="laranja wshite-text rem btn-large btn">Cadastrar</a>
+                        <a href="#" onclick="printar()" class="laranja wshite-text rem btn-large btn">Cadastrar</a>
                     </div>
                 </div>
             </div>
@@ -75,7 +61,7 @@
     </div>
 
 </body>
-<script src="base.js">
-    < script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" >
-        <
-        /html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="javascript/base.js"></script>
+
+</html>
