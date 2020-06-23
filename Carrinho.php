@@ -1,5 +1,5 @@
 <?php include "cabecalho.php" ?>
-
+<script src="javascript/base.js"></script>
 <body class="carrinho pg ">
     <?php include "nav.php" ?>
 
@@ -16,7 +16,7 @@
                             <tr>
                                 <th class="black-text">Produto</th>
                                 <th class="black-text">Descrição</th>
-                                <th class="black-text">Preço</th>
+                                <th class=" black-text">Preço</th>
                             </tr>
                         </thead>
 
@@ -25,28 +25,23 @@
                                 <td id="nome">Produtos</td>
                                 <td><a class="desc" href="">Produto</a></td>
 
-                                <td id="valor">5000</td>
+                                <td class="valor">5000</td>
 
                             </tr>
                             <tr>
                                 <td id="nome">Produtos</td>
                                 <td><a class="desc" href="">Produto</a></td>
 
-                                <td id="valor">5000</td>
+                                <td class="valor">5000</td>
 
                             </tr>
-                            <tr>
-                                <td id="nome">Produtos</td>
-                                <td><a class="desc" href="">Produto</a></td>
-
-                                <td id="valor">5000</td>
-
-                            </tr>
+                                                       
                         </tbody>
                     </table>
+                    <div class="row"><div class="col s3 offset-s7 black-text"><h5>Preço</div></div>
 
                     <div class="row">
-                        <a href="#" id="finalizar" class=" waves-effect btn laranja ">
+                                                <a href="#" id="finalizar" class=" waves-effect btn lorange ">
                             <h6>Finalizar Compra</h6>
                         </a>
                     </div>

@@ -65,20 +65,12 @@ td {
 
 }
 
-.laranja-text {
-    color: #f19c41;
+.lorange-text {
+    color: rgb(236, 34, 34);
 }
 
-.laranja {
-    background-color: #f19c41 !important;
-}
-
-.cinza-text {
-    color: #63636a;
-}
-
-.cinza {
-    background-color: #63636a;
+.lorange {
+    background-color: rgb(236, 34, 34);
 }
 
 label #desc {
@@ -88,11 +80,12 @@ label #desc {
 ul li .active {
     border-bottom: solid 2px #63636a;
 }
+a:hover{
+    background-color: black!important;
+    color: white!important;
+}
+h1#logo:hover{ 
+    cursor:pointer!important
 
-.cadastro {}
-
-.carrinho {}
-
-.usuario {}
-
-.inicial {}
+}
+h1{cursor: pointer;}

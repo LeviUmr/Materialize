@@ -4,7 +4,7 @@
     <div class="row">
 
 
-        <div class="col s5 laranja center " id="login">
+        <div class="col s5 grey darken-3 center " id="login">
 
             <a href="Inicial.php" class="valign-wrapper white-text" style="font-size:2rem">
                 <p class=" large material-icons white-text">arrow_back</p> Voltar
@@ -26,7 +26,7 @@
                     <input type="text" placeholder="  Insira sua senha"><br><br>
                     <a href="" class="white-text rem ">Esqueceu sua senha?</a><br><br>
                     <div class="row">
-                        <a href="#" onclick="printar()" class="waves-effect waves-light btn-large white laranja-text rem btn">Entrar</a>
+                        <a href="#" onclick="printar()" class="waves-effect waves-light btn-large white lorange-text rem btn">Entrar</a>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                 <div class="row">
                     <div class="col s12">
                         <br>
-                        <a href="#" onclick="printar()" class="laranja wshite-text rem btn-large btn">Cadastrar</a>
+                        <a href="#" onclick="printar()" class="lorange waves-effect waves-light white-text rem btn-large btn">Cadastrar</a>
                     </div>
                 </div>
             </div>
@@ -61,6 +61,7 @@
     </div>
 
 </body>
+<script>p=3</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="javascript/base.js"></script>
 

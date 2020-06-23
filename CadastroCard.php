@@ -6,7 +6,7 @@
     <div style="font-family: reem-kufi,sans-serif" class="row">
         <div class="col s8 offset-s2">
             <div class="card laranja">
-                <div class="card-content white-text">
+                <div class="card-content grey darken-3">
                     <span class="card-title center">Cadastro de produtos</span>
                     <div class="row">
 
@@ -41,7 +41,7 @@
 
                                     <div class="center">
                                         <a style="margin-right: 2em;" href="Inicial.php" class="waves-effect waves-light btn white grey-text">Cancelar</a>
-                                        <a href="#" class="waves-effect waves-light btn white laranja-text ">Criar</a>
+                                        <a href="#" class="waves-effect waves-light btn white-text lorange ">Criar</a>
 
                                     </div>
                                 </div>
