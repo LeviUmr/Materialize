@@ -1,5 +1,6 @@
+            
             .espaço {
-                margin-top: 15vh;
+                margin-top: 10vh;
             }
             
             #login {
@@ -33,10 +34,10 @@
             
             th {
                 font-size: 1.5rem;
-                font-family: 'reem kufi',sans-serif;
+                font-family: 'reem kufi',sans-serif;}
                 
-
-            }
+          
+            
             
             h2 {
                 font-size: 4.5rem;
@@ -46,11 +47,37 @@
             
             td {
                 font-size: 1.3rem;
-                color: rgb(0, 0, 0);
+                color: rgb(0, 0, 0)!important;
                 font-family: 'reem kufi';  
             }
-            td a{
+            .desc{
                 text-decoration: none;
-                color: rgb(223, 51, 20);
+                color: rgb(245, 134, 7);
             }
-            
+            #finalizar{
+                position: absolute;
+                bottom:10vh ;
+                right:20vw ;
+
+            }
+            .laranja-text{
+                color:#f19c41 ;
+            }
+
+            .laranja{
+                background-color:#f19c41 !important;
+            }
+
+            .cinza-text{
+                color:#63636a ;
+            }
+
+            .cinza{
+                background-color:#63636a ;
+            }
+            label #desc{
+                margin-bottom: 2rem
+            }
+           
+
+

@@ -10,25 +10,30 @@
 	<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<link rel="stylesheet" href="Estilos/Estilo.css">
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="shortcut icon" href="favicon.ico" />
 </head>
 
 <body class=" indigo lighten-5">
 	<nav>
-		<nav class="nav-extended amber">
-			<div class="nav-wrapper">
+		<nav class="nav-extended laranja">
+			<div class="nav-wrapper" >
 				<ul id="nav-mobile" class="right">
-					<li><a href="CadastroCard.php" class="red-text text-darken-3" style="font-family: Revalia">Novo Produto</a></li>
-					<li><a href="Inicial.php" class="red-text text-darken-3" style="font-family: Revalia;text-decoration:underline;">Produtos</a></li>
-					<li><a href="Carrinho.php" class="red-text text-darken-3 valign-wrapper" style="font-family: Revalia">Carrinho <i class="material-icons">add_shopping_cart</i></a></li>
-					<li><a href="Usuario.php" class="red-text text-darken-3" style="font-family: Revalia">Registrar-se/Entrar</a></li>
+					
+					<li><a href="CadastroCard.php" style="font-size:1rem;font-family :revalia" class="cinza-text"  >Novo Produto</a></li>
+					<li><a href="Inicial.php" style="font-size:1rem;font-family :revalia" class="cinza-text"  style="text-decoration:underline;">Produtos</a></li>
+					<li><a href="Carrinho.php" style="font-size:1rem;font-family :revalia" class="cinza-text  valign-wrapper" >Carrinho <i class="material-icons">add_shopping_cart</i></a></li>
+					<li><a href="Usuario.php" style="font-size:1rem;font-family :revalia" class="cinza-text"  >Registrar-se/Entrar</a></li>
+					
 				</ul>
 			</div>
 			<div class="nav-header center">
-				<h1 class=" red-text text-darken-3" style="font-family: Revalia">MotorShaft</h1>
+				<h1 class=" cinza-text" style="font-family: Revalia">MotorShaft</h1>
 			</div>
-			<div class="nav-content  red darken-3 ">
+			<div class="nav-content  Cst ">
 				<ul class="tabs tabs-transparent">
-					<li class="tab"><a href=""><i class="material-icons amber-text">sort</i></a></li>
+					<li class="tab"><a href=""><i class="material-icons cinza-text ">sort</i></a></li>
 				</ul>
 			</div>
 		</nav>
@@ -55,7 +60,7 @@
 							</div>
 							<div class="card-action">
 								<p class="right-align">
-									<a href="#" style="font-family: reem kufi;" class="valign-wrapper white-text btn red ">Mostrar Mais <i class="material-icons"> description</i></a>
+									<a href="#" style="font-family: reem kufi;" class=" valign-wrapper white-text btn laranja ">Mostrar Mais <i class="material-icons"> description</i></a>
 								</p>
 
 							</div>
@@ -86,7 +91,7 @@
 								</div>
 								<div class="card-action">
 									<p class="right-align">
-										<a href="#" style="font-family: reem kufi;" class="valign-wrapper white-text btn red ">Mostrar Mais <i class="material-icons"> description</i></a>
+										<a href="#" style="font-family: reem kufi;" class="acc valign-wrapper white-text btn laranja ">Mostrar Mais <i class="material-icons"> description</i></a>
 									</p>
 
 								</div>
@@ -117,7 +122,7 @@
 									</div>
 									<div class="card-action">
 										<p class="right-align">
-											<a href="#" style="font-family: reem kufi;" class="valign-wrapper white-text btn red ">Mostrar Mais <i class="material-icons"> description</i></a>
+											<a href="#" style="font-family: reem kufi;" class="acc valign-wrapper white-text btn laranja ">Mostrar Mais <i class="material-icons"> description</i></a>
 										</p>
 
 									</div>
@@ -148,7 +153,7 @@
 										</div>
 										<div class="card-action">
 											<p class="right-align">
-												<a href="#" style="font-family: reem kufi;" class="valign-wrapper white-text btn red ">Mostrar Mais <i class="material-icons"> description</i></a>
+												<a href="#" style="font-family: reem kufi;" class="acc valign-wrapper white-text btn laranja ">Mostrar Mais <i class="material-icons"> description</i></a>
 											</p>
 
 										</div>

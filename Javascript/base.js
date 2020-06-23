@@ -8,3 +8,5 @@ cadastrar.addEventListener("dbclick", print());
 entrar.addEventListener("dbclick", print());
 */
 function print(){M.toast({html: 'Você não pode prosseguir'})}
+Materialize.updateTextFields();
+
