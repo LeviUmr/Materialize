@@ -85,7 +85,7 @@ a:hover{
     color: white!important;
 }
 h1#logo:hover{ 
-    cursor:pointer!important
+    cursor:pointer!important; 
 
 }
 h1{cursor: pointer;}

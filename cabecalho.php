@@ -9,6 +9,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Revalia&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="shortcut icon" href="estilos/favicon.ico" />
 	<link rel="stylesheet" href="estilos/style.css">
-	<link rel="shortcut icon" href="favicon.ico" />
 </head>
